@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f7fb;
+  color: #1f2937;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.main-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 38px;
+  color: #17324d;
+}
+
+h2 {
+  color: #24496b;
+  margin-top: 25px;
+}
+
+form,
+.quote-result,
+.saved-section,
+.quote-details {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  text-align: left;
+}
+
+th {
+  background-color: #e8eef7;
+}
+
+.error-message {
+  background-color: #fdecec;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.success-message {
+  background-color: #e8f7ec;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.warning-message {
+  background-color: #fff7df;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.calculation-box {
+  background-color: #f8fafc;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #d1d5db;
+}
+
+@media (max-width: 700px) {
+  .main-container {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  table {
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+    margin: 4px 0;
+  }
+}
